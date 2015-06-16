@@ -25,7 +25,7 @@ body {
   background: -o-linear-gradient(180deg, rgb(236, 236, 236), white); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(180deg, rgb(236, 236, 236), white); /* For Firefox 3.6 to 15 */
   background: linear-gradient(180deg, rgb(236, 236, 236), white); /* Standard syntax */
-  min-height:44em;
+  min-height:43.5em;
   width:76%;
   margin:0 auto;
 }
@@ -35,10 +35,17 @@ body {
 	width: 90%;
 }
 .div-footer {
-	width:79%;
+	width:76%;
 	margin:0 auto;
 }
-@media screen and (min-width:320px) and (max-width:339px){
+.message {
+	width:70%;
+	margin:10px auto 0 auto;
+}
+@media screen and (min-width:100px) and (max-width:339px){
+	.paragraph {
+		width:67%;
+	}
 	.container {
   		background: rgba(0, 0, 0, 0) url("../img/cover_min.png") no-repeat scroll 50% 100%;
   	}
@@ -51,7 +58,7 @@ body {
 		line-height:1em;
 	}
 	.offer_paragraph {
-		top: -155px;
+		top: -60px;
 	}
 	.social {
     	position: relative;
@@ -117,45 +124,66 @@ body {
 		left:10px;
 		float:left;
 	}
+	.div-footer {
+		width: 83%;
+	}
 }
 @media screen and (min-width: 800px) and (max-width:1200px) {
 	.container {
-  		background: rgba(0, 0, 0, 0) url("../img/cover_mid.png") no-repeat scroll 50% 100%;
-		height: 100em;
+  		background: rgba(0, 0, 0, 0) url("../img/covers2.png") no-repeat scroll 50% 100%;
+		height: 134.5em;
+	}
+	.subcontainer {
+		height: 66em;
 	}
 	.bottles-div {
-		height:80%;
-		width:80%;
+		height:55%;
+		width:55%;
+	    margin: 0 auto;
+	}
+	.offer-div {
+		height:60%;
+		width:60%;
 	    margin: 0 auto;
 	}
 	.paragraph {
-		font-size: 11px;
-		line-height:1em;
-		width: 70.6%;
+		font-size: 13px;
+		line-height: 1em;
+		width: 73.6%;
 	}
 	.lorem {
-		font-size:14.5px;
-		line-height:1em;
-		width:100%;
+		font-size: 19.5px;
+		line-height: 1em;
+		width: 100%;
 	}
 	.offer_paragraph {
-		top: -105px;
+		top: -140px;
+		font-size: 18px;
+		line-height: 1em;
+		width: 84.6%;
 	}
 	.social {
     	position: relative;
-    	top: 33em;
-		margin-left:10%;
+    	top: 40em;
+		margin-left:23%;
 	}
 	img {
     	width:100%;
     	height:100%;
 	}
 	.div-anchor {
-		width:4.5em;
-		height:4.5em;
+		width:6.5em;
+		height:6.5em;
 		position:relative;
 		left:10px;
 		float:left;
+	}
+	.message {
+		width:70%;
+		margin:35px auto 0 auto;
+	}
+	.div-footer {
+		width: 83%;
 	}
 }
 @media screen and (min-width: 1200px) {	
@@ -309,7 +337,3 @@ body {
 	background:rgb(146, 146, 146);
 }
 
-.message {
-	width:70%;
-	margin:10px auto 0 auto;
-}
